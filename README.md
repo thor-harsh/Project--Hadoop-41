@@ -17,7 +17,7 @@ Spoiled: Label indicating whether or not the dog food batch was spoiled.<br></br
 **Use Machine Learning with RF to find out which parameter had the most predicitive power, thus finding out which chemical causes the early spoiling! So create a model and then find out how you can decide which chemical is the problem!** <br></br>
 
 
-**Before jumping to the code lets understand Spark and Logistic Regression First**...<br></br>
+**Before jumping to the code lets understand Spark and Random Forest First**...<br></br>
 
 **What is Apache Spark?** <br></br>
 
@@ -36,8 +36,8 @@ Train machine learning algorithms on a laptop and use the same code to scale to 
 **5**: Columns = features<br></br>
 **6**: Rows = records<br></br>
 
-**What is Logistic Regression**?<br></br>
-Logistic regression is a statistical method that is used for building machine learning models where the dependent variable is dichotomous: i.e. binary. Logistic regression is used to describe data and the relationship between one dependent variable and one or more independent variables.<br></br>
+**What is Random Forest**?<br></br>
+Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees.<br></br>
 
 
 **Important Note: Go through the customer_churn.csv and new_customers.csv files before jumping to the code.**
